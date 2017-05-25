@@ -713,6 +713,13 @@ h2.title:before{
 	margin-bottom: 0px;
 }
 
+.category-products ul{
+  padding-left: 20px;
+}
+.category-products ul li{
+  padding: 5px 0 5px 0;
+}
+
 .category-products .panel-default .panel-heading {
   background-color: #FFFFFF;
   border: 0 none;
@@ -720,7 +727,7 @@ h2.title:before{
   padding: 5px 20px;
 }
 
-.category-products .panel-default .panel-heading .panel-title a {
+.category-products .panel-default .panel-heading .panel-title a, .category-products ul li a {
   color: #696763;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -732,7 +739,7 @@ h2.title:before{
   border-top: 0 none;
 }
 
-.category-products .panel-default .badge {
+.category-products .panel-default .badge, .category-products ul li .badge {
   background:none;
   border-radius: 10px;
   color: #696763;
